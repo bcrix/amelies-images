@@ -1,0 +1,19 @@
+{
+  "name": "amelies-images",
+  "version": "1.0.8",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["anime", "images", "pictures", "amelie", "api"],
+  "author": "bycranix",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "homepage": "https://developers.ameliebot.com/",
+  "bugs": {
+    "url": "https://github.com/ILik3Pasta/amelies-images/issues"
+  }
+}
