@@ -13,7 +13,9 @@ npm i amelies-images
 
 ```js
 const amelie = require("amelies-images");
-console.log(amelie.image("kiss"));
+amelie.image("kiss").then(e => {
+    message.channel.send({content: `${e}`})
+})
 ```
 
 Here you will find categories for images that you need to write in the string to retrieve them.
