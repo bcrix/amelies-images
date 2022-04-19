@@ -14,7 +14,7 @@ npm i amelies-images
 ```js
 const amelie = require("amelies-images");
 amelie.image("kiss").then(e => {
-    message.channel.send({content: `${e}`})
+    console.log(e)
 })
 ```
 
