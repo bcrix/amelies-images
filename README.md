@@ -10,10 +10,19 @@ npm i amelies-images
 ```
 
 ## Example usage
+### Use standard image size
 
 ```js
 const amelie = require("amelies-images");
-amelie.image("kiss").then(e => {
+amelie.image("dance").then(e => {
+    console.log(e)
+})
+```
+
+### Use custom image size
+```js
+const amelie = require("amelies-images");
+amelie.image("dance", 512).then(e => { //you can use the sizes 512 and 780
     console.log(e)
 })
 ```
@@ -27,3 +36,4 @@ Here you will find categories for images that you need to write in the string to
 | happy |
 | hug |
 | kiss |
+| hentai [The Hentai category contains NSFW or overly suggestive content!] |
